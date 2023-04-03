@@ -8,7 +8,9 @@ Copy code
 <code>pip install requests</code>
 ## Usage
 To use Clickscan, simply run the script and pass in a file containing a list of subdomains to scan:
-<code>python clickjacking_finder.py subdomains.txt</code>
+
+<code>python clickscan.py subdomains.txt</code>
+
 The script will scan each subdomain and print out whether or not it is vulnerable to clickjacking. 
 For example:
 
@@ -16,6 +18,7 @@ For example:
 example.com is not vulnerable to Clickjacking
 subdomain.example.com is vulnerable to Clickjacking
 </code>
+
 By default, Clickscan will use 10 threads to scan the subdomains simultaneously. You can adjust this number by modifying the THREADS constant at the top of the script.
 
 Contributing
