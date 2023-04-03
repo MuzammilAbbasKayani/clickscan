@@ -4,7 +4,7 @@ Clickscan is a Python command-line tool that scans a list of subdomains for the 
 ## Requirements
 Clickscan requires Python 3.x and the requests module to be installed. You can install requests using pip:
 
-Copy code
+
 <code>pip install requests</code>
 ## Usage
 To use Clickscan, simply run the script and pass in a file containing a list of subdomains to scan:
