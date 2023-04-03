@@ -24,7 +24,7 @@ def check_subdomain(subdomain):
         else:
             print(f"{subdomain.strip()} is not vulnerable to Clickjacking")
     except (requests.exceptions.Timeout, requests.exceptions.RequestException):
-        print(f"{subdomain.strip()} domain is not alive")
+        print(f"{subdomain.strip()}  is not alive")
  
 threads = []
 for subdomain in subdomains:
